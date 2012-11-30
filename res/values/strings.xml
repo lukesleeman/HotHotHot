@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="number_of_people">Number of people</string>
+    <string name="app_name">HotHot</string>
+    <string name="number_drinking">Number of people drinking</string>
+    <string name="hungry">We are extra hungry</string>
+    <string name="calculate">Calculate order</string>
+    <string name="price_without">Price without Beer</string>
+    <string name="price_with">Price with beer</string>
+    <string name="order">Your order:</string>
+    <string name="prices">Prices:</string>
+    <string name="share">Share</string>
+    <string name="share_title">Look at what I am having for lunch</string>
+    <string name="about">About</string>
+    <string name="map">View on map</string>
+    
+</resources>

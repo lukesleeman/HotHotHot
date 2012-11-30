@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView2"
+	android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout 
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_height"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/spicy_title" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:background="@color/title_background"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/title"
+            android:textSize="@dimen/title_font_size" />
+
+    </RelativeLayout>
+	    
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/number_of_people"
+			android:layout_marginLeft="@dimen/formMargin"
+			android:layout_marginRight="@dimen/formMargin"
+			android:layout_marginTop="@dimen/formMargin"
+			android:layout_marginBottom="0dip" android:id="@+id/numberOfPeopleLabel" />
+		<SeekBar android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginLeft="@dimen/formMargin"
+			android:layout_marginRight="@dimen/formMargin"
+			android:layout_marginTop="0dip" android:layout_marginBottom="@dimen/formMargin"
+			android:id="@+id/numberOfPeople"></SeekBar>
+		<TextView android:layout_height="wrap_content" android:text="@string/number_drinking"
+			android:layout_width="fill_parent" android:layout_marginLeft="@dimen/formMargin"
+			android:layout_marginRight="@dimen/formMargin"
+			android:layout_marginTop="@dimen/formMargin"
+			android:layout_marginBottom="0dip" android:id="@+id/numberDrinkingLabel"></TextView>
+		<SeekBar android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginLeft="@dimen/formMargin"
+			android:layout_marginRight="@dimen/formMargin"
+			android:layout_marginTop="0dip" android:layout_marginBottom="@dimen/formMargin"
+			android:id="@+id/numberDrinking"></SeekBar>
+		<CheckBox android:layout_margin="@dimen/formMargin"
+			android:layout_height="wrap_content" android:text="@string/hungry"
+			android:layout_width="fill_parent" android:id="@+id/hungry"></CheckBox>
+		<Button android:text="@string/calculate" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_margin="@dimen/formMargin"
+			android:id="@+id/calculate"></Button>
+	</LinearLayout>
+</ScrollView>
