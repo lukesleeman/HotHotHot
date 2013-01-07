@@ -1,5 +1,5 @@
-
-    <resources>
-        <color name="title">#f00</color>
-        <color name="title_background">#a000</color>
-    </resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_line">#f44</color>
+    
+</resources>

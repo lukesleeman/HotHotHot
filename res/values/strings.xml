@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="number_of_people">Number of people</string>
     <string name="app_name">HotHot</string>
-    <string name="number_drinking">Number of people drinking</string>
-    <string name="hungry">We are extra hungry</string>
+    
+    <string name="number_of_people">Number of people:</string>
+    <string name="hungry">Extra hungry?</string>
+    <string name="number_drinking">Number of people drinking:</string>
     <string name="calculate">Calculate order</string>
-    <string name="price_without">Price without Beer</string>
-    <string name="price_with">Price with beer</string>
-    <string name="order">Your order:</string>
-    <string name="prices">Prices:</string>
-    <string name="share">Share</string>
-    <string name="share_title">Look at what I am having for lunch</string>
+    <string name="price_with">Price for those drinking:</string>
+    <string name="price_without">Price for those not:</string>
+    <string name="description">HotHot is the UNOFFICAL app for Sichuan House, melbourne.  Do you ever have the problem of dining with a large group, then not knowing what to order?  We did!  Simply select the number of people, and number drinking then allow HotHot to do the rest.</string>
     <string name="about">About</string>
-    <string name="map">View on map</string>
+        <string name="share">Share</string>
+    <string name="address_title">Address</string>
+    <string name="address_text">26 Corrs lane, Melbourne</string>
+    <string name="call">Call Sichuan House</string>
+    <string name="author_title">Author</string>
+	<string name="author_text">App by Luke Sleeman.  luke.sleeman@gmail.com</string>
+	<string name="phone">03 9650 8589</string>
+    
     
 </resources>
