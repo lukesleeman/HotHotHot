@@ -11,6 +11,12 @@ import android.view.Window;
 import android.widget.TextView;
 import au.com.lukesleeman.hothot.domain.Order;
 
+/**
+ * Activity which displays the order to the user.
+ * 
+ * @author lukesleeman
+ *
+ */
 public class ViewLunch extends Activity {
 
 	private Order order;

@@ -6,6 +6,12 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Backend object used to calculating the order.
+ * 
+ * @author lukesleeman
+ *
+ */
 public class Order implements Serializable {
 
 	private static final long serialVersionUID = 1510375838862655528L;

@@ -17,6 +17,12 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 import au.com.lukesleeman.hothot.domain.Order;
 
+/**
+ * Activity allowing the user to set the params for the order - numbe of people, number drinking,
+ * etc
+ * 
+ * @author lukesleeman
+ */
 public class SelectLunch extends Activity {
 	
 	private Order order;

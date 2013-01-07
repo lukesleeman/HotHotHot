@@ -11,6 +11,11 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.ImageButton;
 
+/**
+ * Give some details about the app and allows the user to call the restaurant
+ * 
+ * @author lukesleeman
+ */
 public class About extends Activity {
 
     @Override
